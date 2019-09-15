@@ -1,0 +1,112 @@
+body {
+    background-color: #282c34;
+    padding: 20px;
+    margin: 0;
+    color: white;
+    font-family: sans-serif;
+  }
+  h1, h2, p, ul, li {
+    font-family: sans-serif;
+  }
+  ul.header li {
+    display: inline;
+    list-style-type: none;
+    margin: 0;
+  }
+  ul.header li a {
+    /* color: #FFF; */
+    font-weight: bold;
+    text-decoration: none;
+    padding: 20px;
+    display: inline-block;
+    color: white;
+    font-size: 20px;
+  }
+  .content {
+    padding: 20px;
+  }
+  .content h2 {
+    padding: 0;
+    margin: 0;
+  }
+  .content li {
+    margin-bottom: 10px;
+  }
+  .active {
+    background-color: #4d13aa;
+  }
+  .App-logo {
+    pointer-events: none;
+    display: inline-block;
+    height: 60px;
+    width: 60px;
+  }
+  .App-header, .App{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    font-size: calc(10px + 2vmin);
+    background-color: #282c34;
+  }
+  .accentours_title, .logo {
+    display: inline-block;
+    align: center;
+  }
+  .button {
+    display: inline;
+    cursor: pointer;
+    font-size: 20px;
+    font: Calibri;
+    text-align: center;
+    padding: 15px 32px;
+    color: white;
+    background-color: #4d13aa;
+    align-items: center;
+    border-style: none;
+  }
+  #bookbtn {
+      margin-top: 615px;
+      margin-left: 250px;
+      width: 50%;
+      font-size: 24px;
+  }
+  .cover{
+    background-image: url("cover.jpg");
+    background-repeat: no-repeat;
+    height: 600px;
+    width: 1100px;
+  }
+  .connecting {
+    text-align: center;
+    color: #282c34;
+    padding-top: -10px;
+  }
+  input {
+    padding: 10px;
+    font-size: 20px;
+    background-color: #4b525f;
+    color: white;
+  }
+  .contact{
+      padding-bottom: 600px;
+  }
+  table {
+    font-family: arial, sans-serif;
+    border-collapse: collapse;
+    width: 100%;
+    margin-top: 20px;
+  }
+  
+  td, th {
+    border: 1px solid #575757;
+    text-align: left;
+    padding: 8px;
+  }
+  
+  tr:nth-child(even) {
+    background-color: #4b525f;
+  }
+  tr:nth-child(odd) {
+    background-color: #2a2e36;
+  }
